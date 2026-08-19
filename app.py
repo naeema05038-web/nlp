@@ -1040,7 +1040,7 @@ if st.session_state.show_result:
     # =====================================================
 
     if st.session_state.analysis_history:
-        with st.expander("📜 Session Analysis History"):
+        with st.expander("📜Session Analysis History"):
             history_df = pd.DataFrame(st.session_state.analysis_history)
             st.dataframe(
                 history_df,
@@ -1052,7 +1052,7 @@ if st.session_state.show_result:
     # COMPARE TWO TEXTS
     # =====================================================
 
-    with st.expander("🆚 Compare Two Texts"):
+    with st.expander("🆚Compare Two Texts"):
         st.caption(
             "Compare the linguistic predictions of two texts using the same "
             "trained models."
